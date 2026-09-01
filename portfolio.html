@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work — Kinetic Motion & Momentum Studio</title>
+  <meta name="description" content="Browse Kinetic's selected work — brand identities, digital products, campaigns and motion pieces built for brands on the move.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23ff6b35'/><text x='50' y='72' font-size='62' font-family='Arial Black' fill='%231c1b1a' text-anchor='middle' font-weight='900'>K</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Kinetic studio home">
+        <span class="logo-mark">K</span>
+        <span>Kinetic<span class="accent">.</span></span>
+      </a>
+      <nav aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="index.html">Home</a>
+          <a href="portfolio.html" aria-current="page">Work</a>
+          <a href="about.html">Studio</a>
+          <a href="contact.html">Contact</a>
+          <a class="nav-cta" href="contact.html">Start a project</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===================== PAGE HERO ===================== -->
+    <section class="page-hero" style="--hero-img: url(assets/img/hero-gallery.png);">
+      <div class="page-hero-bg" role="presentation"></div>
+      <div class="container">
+        <p class="crumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> Work</p>
+        <p class="eyebrow">// Selected work</p>
+        <h1>Proof that momentum <span class="accent">looks this good</span>.</h1>
+        <p>A curated slice of the identities, digital products, campaigns and motion pieces we've shipped over the last few years — click any project to view it full size.</p>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">// Filter the feed</p>
+          <h2>Projects across every <span class="accent">discipline</span>.</h2>
+        </div>
+
+        <div class="filter-bar reveal" role="group" aria-label="Filter projects">
+          <button class="btn btn--ghost filter-btn active" data-filter="all" aria-pressed="true">All</button>
+          <button class="btn btn--ghost filter-btn" data-filter="identity" aria-pressed="false">Identity</button>
+          <button class="btn btn--ghost filter-btn" data-filter="digital" aria-pressed="false">Digital</button>
+          <button class="btn btn--ghost filter-btn" data-filter="campaign" aria-pressed="false">Campaign</button>
+          <button class="btn btn--ghost filter-btn" data-filter="motion" aria-pressed="false">Motion</button>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid" style="margin-top: 2rem;">
+          <figure class="gallery-item show" data-cat="identity">
+            <img src="assets/img/thumb-01.jpg" data-full="assets/img/work-01.jpg" alt="Drift Apparel brand identity system" loading="lazy">
+            <figcaption class="gal-caption">
+              <span class="work-tag">Brand Identity</span>
+              <h3>Drift Apparel</h3>
+              <p>Full identity, launch campaign and lookbook for a streetwear label.</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item show" data-cat="identity">
+            <img src="assets/img/thumb-02.jpg" data-full="assets/img/work-02.jpg" alt="Volta Energy rebrand" loading="lazy">
+            <figcaption class="gal-caption">
+              <span class="work-tag">Brand Identity</span>
+              <h3>Volta Energy</h3>
+              <p>Rebrand and product naming for a clean-energy innovator.</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item show" data-cat="digital">
+            <img src="assets/img/thumb-03.jpg" data-full="assets/img/work-03.jpg" alt="Loop Cycles e-commerce website" loading="lazy">
+            <figcaption class="gal-caption">
+              <span class="work-tag">Digital Product</span>
+              <h3>Loop Cycles</h3>
+              <p>E-commerce platform and booking flow for a bike-share network.</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item show" data-cat="campaign">
+            <img src="assets/img/thumb-04.jpg" data-full="assets/img/work-04.jpg" alt="Pulse Fitness launch campaign" loading="lazy">
+            <figcaption class="gal-caption">
+              <span class="work-tag">Campaign</span>
+              <h3>Pulse Fitness</h3>
+              <p>Integrated launch with outdoor, social and retail takeovers.</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item show" data-cat="campaign">
+            <img src="assets/img/thumb-05.jpg" data-full="assets/img/work-05.jpg" alt="Atlas Coffee art direction" loading="lazy">
+            <figcaption class="gal-caption">
+              <span class="work-tag">Art Direction</span>
+              <h3>Atlas Coffee</h3>
+              <p>Packaging and art direction for a specialty roaster's line.</p>
+            </figcaption>
+          </figure>
+          <figure class="gallery-item show" data-cat="motion">
+            <img src="assets/img/thumb-06.jpg" data-full="assets/img/work-06.jpg" alt="Nova Studios brand film" loading="lazy">
+            <figcaption class="gal-caption">
+              <span class="work-tag">Motion Design</span>
+              <h3>Nova Studios</h3>
+              <p>Brand film and animated system for a film production house.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="cta-band" style="--cta-img: url(assets/img/hero-home.png);">
+      <div class="container">
+        <p class="eyebrow">// Like what you see?</p>
+        <h2>Your project could be <span class="accent">next</span>.</h2>
+        <p>Every project here started as a conversation. Tell us about yours — we'll take it from idea to motion.</p>
+        <div class="btn-wrap" style="justify-content: center;">
+          <a class="btn btn--solid" href="contact.html">Start a project</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="index.html"><span class="logo-mark">K</span><span>Kinetic<span class="accent">.</span></span></a>
+          <p>A motion-first creative studio building brands, products and campaigns that keep moving.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Kinetic on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" aria-label="Kinetic on Behance"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 9h5a2.5 2.5 0 0 1 0 5H8z"/><path d="M8 14h6a2.5 2.5 0 0 1 0 5H8z"/><path d="M7 9v10"/><path d="M16.5 9.5h4"/></svg></a>
+            <a href="#" aria-label="Kinetic on Dribbble"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8.5 3.5c3 4 5 8.5 6 14"/><path d="M20.5 9c-6 1-12-.5-17-3"/><path d="M3 15c4-3 9-4 14-3"/></svg></a>
+            <a href="#" aria-label="Kinetic on LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/><path d="M16 9v3a2 2 0 0 0 4 0V9"/><path d="M20 21v-9"/><path d="M16 21v-6a3 3 0 0 0-6 0v6"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Studio</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="portfolio.html">Work</a></li>
+            <li><a href="about.html">Process</a></li>
+            <li><a href="contact.html">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="index.html#services">Brand Identity</a></li>
+            <li><a href="index.html#services">Digital Products</a></li>
+            <li><a href="index.html#services">Motion Design</a></li>
+            <li><a href="index.html#services">Campaigns</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">hello@kinetic.studio</a></li>
+            <li><a href="contact.html">+1 (555) 014-0923</a></li>
+            <li><a href="contact.html">14 Speedwell Ave, Portland, OR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Kinetic Studio. All rights reserved.</span>
+        <span>Built in forward gear.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Project preview">
+    <button class="lb-close" aria-label="Close preview">×</button>
+    <div class="lb-inner">
+      <img class="lb-img" src="" alt="">
+      <span class="lb-caption"></span>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
